@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class NPCapdv1 : MonoBehaviour
+public class NPCApdv2 : MonoBehaviour
 {
     public GameObject dialoguePanel;
     public TMP_Text dialogueText; // Use TMP_Text instead of Text
@@ -38,12 +38,12 @@ public class NPCapdv1 : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.P) && playerIsClose)
         {
-            SceneManager.LoadScene("PuzzleGame apdv1");
+            SceneManager.LoadScene("PuzzleGame apdv2");
         }
 
         if (Input.GetKeyDown(KeyCode.Q) && playerIsClose)
         {
-            SceneManager.LoadScene("Quiz apdv1");
+            SceneManager.LoadScene("Quiz apdv2");
         }
     }
 
