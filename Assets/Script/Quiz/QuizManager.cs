@@ -31,6 +31,11 @@ public class QuizManager : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
+    public void Continue()
+    {
+        SceneManager.LoadScene("APDV1"); // Replace "APDV1" with the name of your scene
+    }
+
     public void GameOver()
     {
         Quizpanel.SetActive(false);

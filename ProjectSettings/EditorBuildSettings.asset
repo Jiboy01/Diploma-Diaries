@@ -19,6 +19,9 @@ EditorBuildSettings:
     guid: 1f0e872593b902c4982d8999a9a588ae
   - enabled: 1
     path: Assets/Scenes/APDV1.unity
+    guid: 84eef79fb93c23c4784e3c021fb5b260
+  - enabled: 1
+    path: Assets/Scenes/APDV1 2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Canteen.unity
@@ -32,4 +35,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Quiz.unity
     guid: 0db9b857229a9bb47821a513f51c7fe9
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGame.unity
+    guid: 9e664ce48ad19674e9b0ede7d02574ff
   m_configObjects: {}
