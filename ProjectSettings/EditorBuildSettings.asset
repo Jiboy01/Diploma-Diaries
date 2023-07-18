@@ -10,7 +10,7 @@ EditorBuildSettings:
     guid: 2acc616b6d9c9e546b58d6f5ae06d2cc
   - enabled: 1
     path: Assets/Scenes/CutScene.unity
-    guid: f7735f76766b5184abbfdbdd4522f63d
+    guid: 7d247610110ca374eb25d0937120ecaa
   - enabled: 1
     path: Assets/Scenes/Dorm.unity
     guid: da6ceec027a32d6479d33f9303372776
@@ -27,6 +27,12 @@ EditorBuildSettings:
     path: Assets/Scenes/APDV2.unity
     guid: 31278c3fcf91e7a47940e65d91e0d329
   - enabled: 1
+    path: Assets/Scenes/APDV3.unity
+    guid: 8648351549b42f7408119f4bd5bd72fc
+  - enabled: 1
+    path: Assets/Scenes/APDV4.unity
+    guid: a75132d787ccc9c49b262a59b3142a72
+  - enabled: 1
     path: Assets/Scenes/Canteen.unity
     guid: 8f8860bcd2f2e4b409da5944ee8cba63
   - enabled: 1
@@ -42,9 +48,33 @@ EditorBuildSettings:
     path: Assets/Scenes/Quiz apdv2.unity
     guid: 243549e5c4a284e4bbdbca8b34493120
   - enabled: 1
+    path: Assets/Scenes/Quiz apdv3.unity
+    guid: 1f12d808334a4c0449a7b20cf5daf764
+  - enabled: 1
+    path: Assets/Scenes/Quiz apdv4.unity
+    guid: 212cfbea8700a4042a4ca83009cbfa9c
+  - enabled: 1
     path: Assets/Scenes/PuzzleGame apdv1.unity
     guid: bb82f8bafb8317c49b63edc05054fee2
   - enabled: 1
     path: Assets/Scenes/PuzzleGame Apdv2.unity
     guid: 9e664ce48ad19674e9b0ede7d02574ff
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGame Apdv3.unity
+    guid: b274026cb78cf0349ba986a866818791
+  - enabled: 1
+    path: Assets/Scenes/PuzzleGame Apdv4.unity
+    guid: 3f97325fb50d2cf4a83aaa0dd09190e5
+  - enabled: 1
+    path: Assets/Scenes/CutScene 1.unity
+    guid: 0e03e949ff149e743b08ef88bc68d3db
+  - enabled: 1
+    path: Assets/Scenes/CutScene 2.unity
+    guid: f7735f76766b5184abbfdbdd4522f63d
+  - enabled: 1
+    path: Assets/Scenes/CutScene 3.unity
+    guid: 502c61c8d56853d4fbdbebe762bc2b3c
+  - enabled: 1
+    path: Assets/Scenes/CutScene 4.unity
+    guid: 3874ca800ffb767408b1f324b8e1b8dd
   m_configObjects: {}
