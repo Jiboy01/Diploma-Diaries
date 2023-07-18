@@ -9624,7 +9624,7 @@ MonoBehaviour:
   dialoguePanel: {fileID: 2076962365}
   dialogueText: {fileID: 281941624}
   dialogue:
-  - Hello !! My name is Magic Man
+  - Hello !! My name is Magic Man, So this is Level 2
   - If you want to play Puzzle Game just press P key
   - If you want to do Quiz just press Q key
   - Goodluck !!!
@@ -22868,8 +22868,8 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1448341410}
   dialogueText: {fileID: 1515043953}
   dialogue:
-  - Hello!!! Welcome to APDV1
-  - My name is Amelia and I'm your lecturer
+  - Hello!!! Welcome to APDV2
+  - My name is Aisha and I'm your lecturer
   - Hello my name is Aiman
   index: 0
   contButton: {fileID: 1562055941}
@@ -27472,7 +27472,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6961019316124941992, guid: c486f4978c45bc642befb437765ede85, type: 3}
       propertyPath: m_Name
-      value: APDV1Location
+      value: APDV2Location
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
