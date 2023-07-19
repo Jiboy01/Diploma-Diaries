@@ -958,11 +958,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3778784425395103114, guid: caeefa75b8b6c8e48a9985bd79b6d639, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.537
       objectReference: {fileID: 0}
     - target: {fileID: 3778784425395103114, guid: caeefa75b8b6c8e48a9985bd79b6d639, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4934915386828491149, guid: caeefa75b8b6c8e48a9985bd79b6d639, type: 3}
       propertyPath: m_Value
@@ -978,19 +978,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6401049654420321940, guid: caeefa75b8b6c8e48a9985bd79b6d639, type: 3}
       propertyPath: m_AnchorMax.x
-      value: 0
+      value: 0.537
       objectReference: {fileID: 0}
     - target: {fileID: 6401049654420321940, guid: caeefa75b8b6c8e48a9985bd79b6d639, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6401049654420321940, guid: caeefa75b8b6c8e48a9985bd79b6d639, type: 3}
       propertyPath: m_AnchorMin.x
-      value: 0
+      value: 0.537
       objectReference: {fileID: 0}
     - target: {fileID: 6797122539848663838, guid: caeefa75b8b6c8e48a9985bd79b6d639, type: 3}
       propertyPath: m_Name
       value: Slider
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797122539848663838, guid: caeefa75b8b6c8e48a9985bd79b6d639, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9517,7 +9521,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1344634785
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -816493536, guid: f58a29824e7a3e0499a74b92e13ee5e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -17332,7 +17336,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2057717979
 RectTransform:
   m_ObjectHideFlags: 0

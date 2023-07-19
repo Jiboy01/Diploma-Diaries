@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class NPCApdv3 : MonoBehaviour
+public class NPCdorm : MonoBehaviour
 {
     public GameObject dialoguePanel;
     public TMP_Text dialogueText; // Use TMP_Text instead of Text
@@ -30,7 +30,12 @@ public class NPCApdv3 : MonoBehaviour
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
-        }   
+        }
+        if (dialogueText.text == dialogue[index])
+        {
+            contButton.SetActive(true);
+        }
+
     }
 
     public void ZeroText()
@@ -40,6 +45,7 @@ public class NPCApdv3 : MonoBehaviour
             dialogueText.text = "";
             index = 0;
             dialoguePanel.SetActive(false);
+            contButton.SetActive(false); // Hide the continue button
         }
     }
 
@@ -53,6 +59,7 @@ public class NPCApdv3 : MonoBehaviour
             }
             yield return new WaitForSeconds(wordSpeed);
         }
+        contButton.SetActive(true); // Show the continue button after typing is complete
     }
 
     public void NextLine()
