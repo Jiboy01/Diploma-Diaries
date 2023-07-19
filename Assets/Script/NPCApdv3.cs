@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class NPCApdv3 : MonoBehaviour
+public class NPC : MonoBehaviour
 {
     public GameObject dialoguePanel;
     public TMP_Text dialogueText; // Use TMP_Text instead of Text
