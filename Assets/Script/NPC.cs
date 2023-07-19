@@ -1,34 +1,73 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using TMPro;
-using System.Xml.Serialization;
+
 
 public class NPC : MonoBehaviour
 
 {
-    public GameObject dialogBox;
-    public TextMeshProUGUI dialogText;
-    public string dialog;
-    public bool playerInRange;
+    public GameObject dialoguePanel;
+    public TextMeshProUGUI dialogueText;
+    public string[] dialogue;
+    private int index;
 
-    void Start()
-    {
-        
-    }
+    public GameObject contButton;
+    public float wordSpeed;
+    public bool playerIsClose;
     void Update()
     {
-        if (Input.GetKey(KeyCode.E) && playerInRange) 
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-            if(dialogBox.activeInHierarchy) 
+            if (dialoguePanel.activeInHierarchy)
             {
-                dialogBox.SetActive(false);
-            } else
-            {
-                dialogBox.SetActive(true);
-                dialogText.text = dialog;   
+                zeroText();
             }
+            else
+            {
+                dialoguePanel.SetActive(true);
+                StartCoroutine(Typing());
+            }
+        }
+        if(dialogueText.text == dialogue[index])
+        {
+            contButton.SetActive(true);
+        }
+
+    }
+    public void zeroText()
+    {
+        dialogueText.text = "";
+        index = 0;
+        dialoguePanel.SetActive(false);
+    }
+
+    IEnumerator Typing()
+    {
+
+        foreach(char letter in dialogue[index].ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(wordSpeed);
+        }
+    }
+
+    public void NextLine()
+    {
+        contButton.SetActive(false);
+
+        if(index< dialogue.Length -1)
+        {
+            index++;
+            dialogueText.text = "";
+            StartCoroutine(Typing());
+
+        }
+        else 
+        {
+            zeroText();
         }
     }
 
@@ -36,14 +75,17 @@ public class NPC : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Player in range");
+            playerIsClose = true;
         }
     }
+
     private void OnTriggerExit2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
-            Debug.Log("Player left range");
+            playerIsClose = false;
+            zeroText();
         }
     }
+
 }
