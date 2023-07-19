@@ -1,55 +1,56 @@
-using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
-using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
+using UnityEngine.SceneManagement;
 
-
-public class NPC : MonoBehaviour
-
+public class NPCApdv3 : MonoBehaviour
 {
     public GameObject dialoguePanel;
-    public TextMeshProUGUI dialogueText;
+    public TMP_Text dialogueText; // Use TMP_Text instead of Text
     public string[] dialogue;
-    private int index;
+    public int index;
 
     public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
+
+    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
             if (dialoguePanel.activeInHierarchy)
             {
-                zeroText();
+                ZeroText(); // Use PascalCase for method names
             }
             else
             {
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
             }
-        }
-        if(dialogueText.text == dialogue[index])
-        {
-            contButton.SetActive(true);
-        }
-
+        }   
     }
-    public void zeroText()
+
+    public void ZeroText()
     {
-        dialogueText.text = "";
-        index = 0;
-        dialoguePanel.SetActive(false);
+        if (dialogueText != null && dialoguePanel != null)
+        {
+            dialogueText.text = "";
+            index = 0;
+            dialoguePanel.SetActive(false);
+        }
     }
 
     IEnumerator Typing()
     {
-
-        foreach(char letter in dialogue[index].ToCharArray())
+        foreach (char letter in dialogue[index].ToCharArray())
         {
-            dialogueText.text += letter;
+            if (dialogueText != null)
+            {
+                dialogueText.text += letter;
+            }
             yield return new WaitForSeconds(wordSpeed);
         }
     }
@@ -58,20 +59,22 @@ public class NPC : MonoBehaviour
     {
         contButton.SetActive(false);
 
-        if(index< dialogue.Length -1)
+        if (index < dialogue.Length - 1)
         {
             index++;
-            dialogueText.text = "";
+            if (dialogueText != null)
+            {
+                dialogueText.text = "";
+            }
             StartCoroutine(Typing());
-
         }
-        else 
+        else
         {
-            zeroText();
+            ZeroText(); // Use PascalCase for method names
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other) // Use correct capitalization
     {
         if (other.CompareTag("Player"))
         {
@@ -79,13 +82,12 @@ public class NPC : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    private void OnTriggerExit2D(Collider2D other) // Use correct capitalization
     {
         if (other.CompareTag("Player"))
         {
             playerIsClose = false;
-            zeroText();
+            ZeroText(); // Use PascalCase for method names
         }
     }
-
 }

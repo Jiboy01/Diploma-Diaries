@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/APDV1.unity
     guid: 84eef79fb93c23c4784e3c021fb5b260
   - enabled: 1
-    path: Assets/Scenes/APDV1 2.unity
+    path: Assets/Scenes/APDV2 2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/APDV2.unity
@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/APDV3.unity
     guid: 8648351549b42f7408119f4bd5bd72fc
   - enabled: 1
-    path: Assets/Scenes/APDV4.unity
+    path: Assets/Scenes/APDV4 2.unity
     guid: a75132d787ccc9c49b262a59b3142a72
   - enabled: 1
     path: Assets/Scenes/Canteen.unity
