@@ -2529,7 +2529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a948c21670363a743aa1a83d308d2490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Outside
+  sceneToLoad: Library 3
   playerPosition: {x: 291.34, y: -22.21}
   playerStorage: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
   needText: 1
@@ -2882,7 +2882,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 98
   m_Sprite: {fileID: 195415440, guid: 1440e6b81a15b32448db34251f2a6b51, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2902,7 +2902,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943735554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.0517, y: 0.2896, z: 0}
+  m_LocalPosition: {x: 2.59, y: 1.14, z: 0}
   m_LocalScale: {x: 1.3897961, y: 1.6403813, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2924,10 +2924,9 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1047262204}
   dialogueText: {fileID: 1719925013}
   dialogue:
-  - Hello I am Ahmad.I am your room mate.
-  - 'Welcome to the Polytechnic. You want your future to be great study hard gain
-    knowledge '
-  - Meet me at the Canteen lets have some bites before we attend our class
+  - Good Morning, Had a great sleep?
+  - Im about to get ready.I'll meet you at the library.
+  index: 0
   contButton: {fileID: 2055115112}
   wordSpeed: 0.06
   playerIsClose: 0

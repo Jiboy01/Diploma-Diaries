@@ -2499,7 +2499,7 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!1 &526145774
+--- !u!1 &553197299
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2507,42 +2507,52 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 526145777}
-  - component: {fileID: 526145776}
-  - component: {fileID: 526145775}
+  - component: {fileID: 553197301}
+  - component: {fileID: 553197302}
+  - component: {fileID: 553197303}
   m_Layer: 0
-  m_Name: 'Scene Transition '
+  m_Name: GameObject
   m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 3936346786652291628, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &526145775
+--- !u!4 &553197301
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 553197299}
+  m_LocalRotation: {x: 0, y: -0, z: 0.9999905, w: -0.00436318}
+  m_LocalPosition: {x: -5.33, y: 0.21, z: -0.42476937}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180.5}
+--- !u!114 &553197302
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526145774}
+  m_GameObject: {fileID: 553197299}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a948c21670363a743aa1a83d308d2490, type: 3}
+  m_Script: {fileID: 11500000, guid: ab1b9494863d2104594cad14dbcfc470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Outside
-  playerPosition: {x: 291.34, y: -22.21}
-  playerStorage: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
-  needText: 1
-  placeName: Outside
-  text: {fileID: 437165112}
-  placeText: {fileID: 437165114}
---- !u!61 &526145776
+  changeTime: 0
+  sceneName: CutScene 1
+--- !u!61 &553197303
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526145774}
+  m_GameObject: {fileID: 553197299}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
@@ -2568,7 +2578,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.008825779, y: -0.059040368}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -2579,23 +2589,8 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.9706392, y: 0.7607914}
+  m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!4 &526145777
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 526145774}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.02, z: 0.012910993}
-  m_LocalScale: {x: 1, y: 0.1625, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &573684548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2902,7 +2897,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 943735554}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.0517, y: 0.2896, z: 0}
+  m_LocalPosition: {x: 0.11, y: -1.38, z: 0}
   m_LocalScale: {x: 1.3897961, y: 1.6403813, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2924,10 +2919,8 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1047262204}
   dialogueText: {fileID: 1719925013}
   dialogue:
-  - Hello I am Ahmad.I am your room mate.
-  - 'Welcome to the Polytechnic. You want your future to be great study hard gain
-    knowledge '
-  - Meet me at the Canteen lets have some bites before we attend our class
+  - How was you firstday ? hope it was great alright im off to bed
+  index: 0
   contButton: {fileID: 2055115112}
   wordSpeed: 0.06
   playerIsClose: 0
@@ -2959,11 +2952,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 2055115113}
   - {fileID: 1852168947}
   - {fileID: 1719925012}
   - {fileID: 573684549}
   - {fileID: 432765426}
-  - {fileID: 2055115113}
   m_Father: {fileID: 349020382}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5283,6 +5276,103 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1852168946}
   m_CullTransparentMesh: 1
+--- !u!1 &2044525749
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2044525752}
+  - component: {fileID: 2044525751}
+  - component: {fileID: 2044525750}
+  m_Layer: 0
+  m_Name: 'Scene Transition  '
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2044525750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044525749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a948c21670363a743aa1a83d308d2490, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Outside
+  playerPosition: {x: 291.34, y: -22.21}
+  playerStorage: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
+  needText: 1
+  placeName: Outside
+  text: {fileID: 437165112}
+  placeText: {fileID: 437165114}
+--- !u!61 &2044525751
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044525749}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.008825779, y: -0.059040368}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9706392, y: 0.7607914}
+  m_EdgeRadius: 0
+--- !u!4 &2044525752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2044525749}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: -4.0200195, z: 0.012910994}
+  m_LocalScale: {x: 1, y: 0.1625, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2055115112
 GameObject:
   m_ObjectHideFlags: 0
@@ -5435,11 +5525,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4954363884970848885, guid: ae4419e6068c8d9428a61b6c49551835, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.18
+      value: -2.83
       objectReference: {fileID: 0}
     - target: {fileID: 4954363884970848885, guid: ae4419e6068c8d9428a61b6c49551835, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.46
+      value: 0.43
       objectReference: {fileID: 0}
     - target: {fileID: 4954363884970848885, guid: ae4419e6068c8d9428a61b6c49551835, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5451,15 +5541,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4954363884970848885, guid: ae4419e6068c8d9428a61b6c49551835, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4954363884970848885, guid: ae4419e6068c8d9428a61b6c49551835, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4954363884970848885, guid: ae4419e6068c8d9428a61b6c49551835, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4954363884970848885, guid: ae4419e6068c8d9428a61b6c49551835, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

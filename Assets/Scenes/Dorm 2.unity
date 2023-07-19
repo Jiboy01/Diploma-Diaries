@@ -2529,7 +2529,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a948c21670363a743aa1a83d308d2490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Outside 2
+  sceneToLoad: APDV2
   playerPosition: {x: 291.34, y: -22.21}
   playerStorage: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
   needText: 1
@@ -2928,6 +2928,7 @@ MonoBehaviour:
   - 'Welcome to the Polytechnic. You want your future to be great study hard gain
     knowledge '
   - Meet me at the Canteen lets have some bites before we attend our class
+  index: 0
   contButton: {fileID: 2055115112}
   wordSpeed: 0.06
   playerIsClose: 0

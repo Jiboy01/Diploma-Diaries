@@ -8725,7 +8725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a948c21670363a743aa1a83d308d2490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Outside
+  sceneToLoad: Outside 3
   playerPosition: {x: 78.95, y: -8.29}
   playerStorage: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
   needText: 1
