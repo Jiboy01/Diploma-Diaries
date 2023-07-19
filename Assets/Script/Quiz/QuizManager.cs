@@ -38,7 +38,7 @@ public class QuizManager : MonoBehaviour
 
     public void APDV2()
     {
-        SceneManager.LoadScene("APDV2");
+        SceneManager.LoadScene("APDV2 1");
     }
 
     public void APDV3()

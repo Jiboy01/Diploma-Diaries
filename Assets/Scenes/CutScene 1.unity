@@ -731,7 +731,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeTime: 7
-  sceneName: Dorm
+  sceneName: Dorm 2
 --- !u!4 &1311781224
 Transform:
   m_ObjectHideFlags: 0

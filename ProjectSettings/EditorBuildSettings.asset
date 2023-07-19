@@ -15,8 +15,35 @@ EditorBuildSettings:
     path: Assets/Scenes/Dorm.unity
     guid: da6ceec027a32d6479d33f9303372776
   - enabled: 1
+    path: Assets/Scenes/Dorm 1.unity
+    guid: c8fd41c71ff66124692d15c6e13fb4e0
+  - enabled: 1
+    path: Assets/Scenes/Dorm 2.unity
+    guid: e7408db80bdd6a3468168b6c1dc5e656
+  - enabled: 1
+    path: Assets/Scenes/Dorm 3.unity
+    guid: 88eed2e4a9a191f4991b8fa3f99594fa
+  - enabled: 1
+    path: Assets/Scenes/Dorm 4.unity
+    guid: 0681e55c37042b243ba3cf48bbe60422
+  - enabled: 1
+    path: Assets/Scenes/Dorm 5.unity
+    guid: 4bcf27bf543394941817941aac47b993
+  - enabled: 1
     path: Assets/Scenes/Outside.unity
     guid: 1f0e872593b902c4982d8999a9a588ae
+  - enabled: 1
+    path: Assets/Scenes/Outside 1.unity
+    guid: 2e4c2412f0892d84a9cb145b87cbbc06
+  - enabled: 1
+    path: Assets/Scenes/Outside 2.unity
+    guid: 56f2ebdc971687549a7df44633ba28cb
+  - enabled: 1
+    path: Assets/Scenes/Outside 3.unity
+    guid: 1b8caf57f38baac4aaa48a3c091c3f41
+  - enabled: 1
+    path: Assets/Scenes/Outside 4.unity
+    guid: 0da271ba719095246bb5dade47463b95
   - enabled: 1
     path: Assets/Scenes/APDV1.unity
     guid: 84eef79fb93c23c4784e3c021fb5b260
@@ -27,11 +54,20 @@ EditorBuildSettings:
     path: Assets/Scenes/APDV2.unity
     guid: 31278c3fcf91e7a47940e65d91e0d329
   - enabled: 1
+    path: Assets/Scenes/APDV2 1.unity
+    guid: 01c3369824eacec47be3f38e2f617e97
+  - enabled: 1
     path: Assets/Scenes/APDV3.unity
     guid: 8648351549b42f7408119f4bd5bd72fc
   - enabled: 1
+    path: Assets/Scenes/APDV3 1.unity
+    guid: 1a362298540cff346a2b6a66693205a8
+  - enabled: 1
     path: Assets/Scenes/APDV4.unity
     guid: a75132d787ccc9c49b262a59b3142a72
+  - enabled: 1
+    path: Assets/Scenes/APDV4 1.unity
+    guid: 9f0d018d6ed561e4fb9a410b8c098a59
   - enabled: 1
     path: Assets/Scenes/Canteen.unity
     guid: 8f8860bcd2f2e4b409da5944ee8cba63
