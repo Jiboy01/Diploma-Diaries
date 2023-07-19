@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEngine.SceneManagement;
 
 public class NPCapdv1 : MonoBehaviour
 {
@@ -30,36 +31,55 @@ public class NPCapdv1 : MonoBehaviour
                 StartCoroutine(Typing());
             }
         }
-        if(dialogueText.text == dialogue[index])
+        if (dialogueText.text == dialogue[index])
         {
             contButton.SetActive(true);
+        }
+
+        if (Input.GetKeyDown(KeyCode.P) && playerIsClose)
+        {
+            SceneManager.LoadScene("PuzzleGame apdv1");
+        }
+
+        if (Input.GetKeyDown(KeyCode.Q) && playerIsClose)
+        {
+            SceneManager.LoadScene("Quiz apdv1");
         }
     }
 
     public void ZeroText()
     {
-        dialogueText.text = "";
-        index = 0;
-        dialoguePanel.SetActive(false);
+        if (dialogueText != null && dialoguePanel != null)
+        {
+            dialogueText.text = "";
+            index = 0;
+            dialoguePanel.SetActive(false);
+        }
     }
 
     IEnumerator Typing()
     {
         foreach (char letter in dialogue[index].ToCharArray())
         {
-            dialogueText.text += letter;
+            if (dialogueText != null)
+            {
+                dialogueText.text += letter;
+            }
             yield return new WaitForSeconds(wordSpeed);
         }
     }
 
     public void NextLine()
     {
-        contButton.SetActive(false) ;
+        contButton.SetActive(false);
 
         if (index < dialogue.Length - 1)
         {
             index++;
-            dialogueText.text = "";
+            if (dialogueText != null)
+            {
+                dialogueText.text = "";
+            }
             StartCoroutine(Typing());
         }
         else

@@ -13,9 +13,6 @@ public class ChangeSceneOnTimer : MonoBehaviour
         changeTime -= Time.deltaTime;
         if(changeTime <= 0 )
         {
-
-            
-
             SceneManager.LoadScene(sceneName);
         }
           

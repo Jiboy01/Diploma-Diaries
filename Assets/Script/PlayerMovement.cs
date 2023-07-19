@@ -54,4 +54,6 @@ public class PlayerMovement : MonoBehaviour
         Vector3 targetPosition = playerTransform.position + change * speed * Time.fixedDeltaTime;
         myRigidbody.MovePosition(targetPosition);
     }
+
+
 }
