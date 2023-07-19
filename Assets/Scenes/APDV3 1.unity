@@ -8725,7 +8725,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a948c21670363a743aa1a83d308d2490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Outside
+  sceneToLoad: Outside 3
   playerPosition: {x: 78.95, y: -8.29}
   playerStorage: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
   needText: 1
@@ -26636,7 +26636,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1344634785
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -816493536, guid: f58a29824e7a3e0499a74b92e13ee5e4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}

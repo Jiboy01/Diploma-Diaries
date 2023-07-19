@@ -33,7 +33,7 @@ public class QuizManager : MonoBehaviour
 
     public void Continue()
     {
-        SceneManager.LoadScene("APDV1"); // Replace "APDV1" with the name of your scene
+        SceneManager.LoadScene("APDV1 2"); // Replace "APDV1" with the name of your scene
     }
 
     public void APDV2()
@@ -43,12 +43,12 @@ public class QuizManager : MonoBehaviour
 
     public void APDV3()
     {
-        SceneManager.LoadScene("APDV3");
+        SceneManager.LoadScene("APDV3 1");
     }
 
     public void APDV4()
     {
-        SceneManager.LoadScene("APDV4");
+        SceneManager.LoadScene("APDV4 1");
     }
 
     public void GameOver()
