@@ -12,7 +12,6 @@ public class NPCdorm : MonoBehaviour
     public string[] dialogue;
     public int index;
 
-    public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -31,9 +30,9 @@ public class NPCdorm : MonoBehaviour
                 StartCoroutine(Typing());
             }
         }
-        if (dialogueText.text == dialogue[index])
+        if (Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogue[index])
         {
-            contButton.SetActive(true);
+            NextLine();
         }
 
     }
@@ -45,7 +44,6 @@ public class NPCdorm : MonoBehaviour
             dialogueText.text = "";
             index = 0;
             dialoguePanel.SetActive(false);
-            contButton.SetActive(false); // Hide the continue button
         }
     }
 
@@ -59,13 +57,10 @@ public class NPCdorm : MonoBehaviour
             }
             yield return new WaitForSeconds(wordSpeed);
         }
-        contButton.SetActive(true); // Show the continue button after typing is complete
     }
 
     public void NextLine()
     {
-        contButton.SetActive(false);
-
         if (index < dialogue.Length - 1)
         {
             index++;
