@@ -3017,8 +3017,8 @@ MonoBehaviour:
   dialogueText: {fileID: 1719925013}
   dialogue:
   - Welcome back Aiman. Hope you had a great day
+  - Have a good rest by going near the bed
   index: 0
-  contButton: {fileID: 0}
   wordSpeed: 0
   playerIsClose: 0
 --- !u!1 &1047262204
@@ -3036,7 +3036,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1047262205
 RectTransform:
   m_ObjectHideFlags: 0
