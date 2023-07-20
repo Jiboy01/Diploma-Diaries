@@ -14,7 +14,7 @@ public class ShopManager : MonoBehaviour
     public GameObject Shop;
     public Transform shopContent;
     public GameObject itemPrefab;
-    public HungerBar hungerBar;
+    
 
     private void Awake()
     {
@@ -71,20 +71,10 @@ public class ShopManager : MonoBehaviour
             item.quantity++;
             item.itemRef.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = item.quantity.ToString();
 
-            ApplyHungerFull(item);
         }
     }
 
-    public void ApplyHungerFull(Item item)
-    {
-        switch (item.name)
-        {
-            case "Burger":
-                hungerBar.IncreaseHunger(2f);
-                break;
-                // Add more cases for other food items if needed
-        }
-    }
+   
 
     public void ToggleShop()
     {

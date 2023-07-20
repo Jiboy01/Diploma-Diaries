@@ -474,6 +474,8 @@ PlayableDirector:
     value: {fileID: 1944694961}
   - key: {fileID: -5318504947249942011, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
     value: {fileID: 31841918}
+  - key: {fileID: 8135184961480725890, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
+    value: {fileID: 0}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1178485968
@@ -535,7 +537,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: DAY 2
+  m_text: LAST DAY
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -760,7 +762,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: APDV2
+  m_text: GRADUATION
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
