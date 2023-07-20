@@ -3010,17 +3010,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 943735554}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: aae932e42ae4cb44598630d7af2641d1, type: 3}
+  m_Script: {fileID: 11500000, guid: 373ff9555f6cc2745af3422445b03e5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   dialoguePanel: {fileID: 1047262204}
   dialogueText: {fileID: 1719925013}
   dialogue:
-  - 'Good morning Aiman. I dont have class today  '
-  - But i do have assignment to complete ill see you this evening
+  - Ahh Aiman!! You are back already. Ah I'm so tired I am  going to bed
   index: 0
-  contButton: {fileID: 2055115112}
-  wordSpeed: 0.06
+  wordSpeed: 0
   playerIsClose: 0
 --- !u!1 &1047262204
 GameObject:
@@ -5458,7 +5456,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 943735559}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: NPC, Assembly-CSharp
         m_MethodName: NextLine
         m_Mode: 1
