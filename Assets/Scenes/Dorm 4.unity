@@ -2530,7 +2530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: Library 3
-  playerPosition: {x: 291.34, y: -22.21}
+  playerPosition: {x: 0, y: -4.5}
   playerStorage: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
   needText: 1
   placeName: Outside

@@ -5641,7 +5641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a948c21670363a743aa1a83d308d2490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: 'Outside '
+  sceneToLoad: Outside 1
   playerPosition: {x: 78.95, y: -8.29}
   playerStorage: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
   needText: 1
@@ -17524,8 +17524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614fac56b8b147f458cbe7ff66e4fcd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HungerSlider: {fileID: 0}
-  Hunger: 0
 --- !u!1 &2076962365
 GameObject:
   m_ObjectHideFlags: 0

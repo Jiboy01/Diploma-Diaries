@@ -7357,8 +7357,6 @@ PlayableDirector:
     value: {fileID: 1178485972}
   - key: {fileID: -4199762898915821886, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
     value: {fileID: 1944694961}
-  - key: {fileID: -5318504947249942011, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
-    value: {fileID: 31841918}
   - key: {fileID: 8619035468849216606, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
     value: {fileID: 455991734}
   - key: {fileID: -2572472851884642350, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
@@ -7366,6 +7364,10 @@ PlayableDirector:
   - key: {fileID: 3340175566924124508, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
     value: {fileID: 455991734}
   - key: {fileID: -6244922522495162030, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
+    value: {fileID: 1337673076}
+  - key: {fileID: 8135184961480725890, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
+    value: {fileID: 455991734}
+  - key: {fileID: 4566178196916847684, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
     value: {fileID: 1337673076}
   m_ExposedReferences:
     m_References: []
@@ -135031,8 +135033,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: FINAL YEAR PROJECT
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2cfa07c421cd82846a049e13403aff55, type: 2}
+  m_sharedMaterial: {fileID: 1260357367622887970, guid: 2cfa07c421cd82846a049e13403aff55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -135056,8 +135058,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
-  m_fontSizeBase: 68
+  m_fontSize: 80
+  m_fontSizeBase: 80
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -143796,8 +143798,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: DIPLOMA DIARIES
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 2cfa07c421cd82846a049e13403aff55, type: 2}
+  m_sharedMaterial: {fileID: 1260357367622887970, guid: 2cfa07c421cd82846a049e13403aff55, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -143821,8 +143823,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 68
-  m_fontSizeBase: 68
+  m_fontSize: 90
+  m_fontSizeBase: 90
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
