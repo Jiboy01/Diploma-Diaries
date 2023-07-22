@@ -36,15 +36,6 @@ public class NPCApdv3 : MonoBehaviour
             contButton.SetActive(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.P) && playerIsClose)
-        {
-            SceneManager.LoadScene("PuzzleGame apdv3");
-        }
-
-        if (Input.GetKeyDown(KeyCode.Q) && playerIsClose)
-        {
-            SceneManager.LoadScene("Quiz apdv3");
-        }
     }
 
     public void ZeroText()

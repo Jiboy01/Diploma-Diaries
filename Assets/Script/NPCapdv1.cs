@@ -36,15 +36,6 @@ public class NPCapdv1 : MonoBehaviour
             contButton.SetActive(true);
         }
 
-        if (Input.GetKeyDown(KeyCode.P) && playerIsClose)
-        {
-            SceneManager.LoadScene("PuzzleGame apdv1");
-        }
-
-        if (Input.GetKeyDown(KeyCode.Q) && playerIsClose)
-        {
-            SceneManager.LoadScene("Quiz apdv1");
-        }
     }
 
     public void ZeroText()
@@ -55,6 +46,7 @@ public class NPCapdv1 : MonoBehaviour
             index = 0;
             dialoguePanel.SetActive(false);
         }
+
     }
 
     IEnumerator Typing()

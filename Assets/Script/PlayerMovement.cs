@@ -23,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
         playerAnimator.SetFloat("moveY", -1);
         playerTransform = transform;
         playerTransform.position = startingPosition.initialValue;
+
     }
 
     private void FixedUpdate()
