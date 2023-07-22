@@ -16344,7 +16344,7 @@ MonoBehaviour:
   - That all for today class, See You Tomorrow
   index: 0
   contButton: {fileID: 1562055941}
-  wordSpeed: 0.06
+  wordSpeed: 0.05
   playerIsClose: 0
 --- !u!61 &1484175140
 BoxCollider2D:
@@ -16424,7 +16424,7 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.020145178, y: -0.1813035}
-  m_Size: {x: 2.0878224, y: 2.248981}
+  m_Size: {x: 1, y: 1.2}
   m_Direction: 0
 --- !u!212 &1484175142
 SpriteRenderer:

@@ -21840,7 +21840,7 @@ MonoBehaviour:
   - Dont give up till you succeed.See you tomorrow AIman
   index: 0
   contButton: {fileID: 1562055941}
-  wordSpeed: 0.06
+  wordSpeed: 0.05
   playerIsClose: 0
 --- !u!61 &1484175140
 BoxCollider2D:
