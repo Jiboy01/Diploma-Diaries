@@ -1977,7 +1977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.38113207, g: 1, b: 0.88187146, a: 1}
+  m_Color: {r: 1, g: 0.3803922, b: 0.42374918, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2445,26 +2445,37 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: What are most favourite sports in the world?
+  - Question: ' Who was the first Prime Minister of Malaysia?'
     Answers:
-    - Basketball
-    - Hockey
-    - Football
-    - Badminton
+    - Tunku Abdul Rahman
+    - Tun Hussein Onn
+    - Tun Dr. Mahathir Mohamad
+    - Datuk Seri Najib Razak
+    CorrectAnswer: 1
+  - Question: Which Malaysian historical figure is known for advocating Indian rights
+      and was a prominent lawyer and politician?
+    Answers:
+    - Tunku Abdul Rahman
+    - Tun Tan Cheng Lock
+    - Tun V.T. Sambanthan
+    - Tun Dr. Lim Chong Eu
     CorrectAnswer: 3
-  - Question: which is the oldest polytechnic in malaysia?
+  - Question: Which treaty marked the end of British colonial rule in Malaysia, leading
+      to the formation of Malaysia in 1963?
     Answers:
-    - Politeknik Ibrahim Sultan (PIS)
-    - Politeknik Port Dickson (PPD)
-    - Politeknik Merlimau (PMR)
-    - Politeknik Ungku Omar (PUO)
+    - Treaty of Versailles
+    - Anglo-Malayan Treaty
+    - Treaty of San Francisco
+    - Malaysia Agreement
     CorrectAnswer: 4
-  - Question: What are the most popular courses taken by students at Malaysian polytechnics?
+  - Question: ' During the Japanese Occupation of Malaya in World War II, a resistance
+      movement fought against the Japanese forces. What was the name of this resistance
+      movement?'
     Answers:
-    - Diploma in Business Studies/Management
-    - Diploma in Information Technology/Computer Science
-    - Diploma in Culinary Arts/Hospitality Management
-    - Diploma in Automotive Technology
+    - Malayan Peoples' Anti-Japanese Army (MPAJA)
+    - United Malays National Organization (UMNO)
+    - Malaysian Chinese Association (MCA)
+    - Malayan Communist Party (MCP)
     CorrectAnswer: 1
   options:
   - {fileID: 288160459}

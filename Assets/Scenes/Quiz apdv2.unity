@@ -1977,7 +1977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.38113207, g: 1, b: 0.88187146, a: 1}
+  m_Color: {r: 0.2867924, g: 1, b: 0.4915943, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2445,27 +2445,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: What are most favourite sports in the world?
+  - Question: What does SPM stand for?
     Answers:
-    - Basketball
-    - Hockey
-    - Football
-    - Badminton
+    - Senior Primary Matriculation
+    - Senior Preparatory Measure
+    - Sijil Pelajaran Malaysia
+    - Secondary Proficiency Mastery
     CorrectAnswer: 3
-  - Question: which is the oldest polytechnic in malaysia?
+  - Question: Which of the following is a potential benefit of pursuing further studies
+      after SPM?
     Answers:
-    - Politeknik Ibrahim Sultan (PIS)
-    - Politeknik Port Dickson (PPD)
-    - Politeknik Merlimau (PMR)
-    - Politeknik Ungku Omar (PUO)
-    CorrectAnswer: 4
-  - Question: What are the most popular courses taken by students at Malaysian polytechnics?
+    - Limited career options
+    - Increased job opportunities
+    - No need for continuous learning
+    - Lower income prospects
+    CorrectAnswer: 2
+  - Question: What is the main objective of the interactive RPG game designed for
+      SPM leavers?
     Answers:
-    - Diploma in Business Studies/Management
-    - Diploma in Information Technology/Computer Science
-    - Diploma in Culinary Arts/Hospitality Management
-    - Diploma in Automotive Technology
-    CorrectAnswer: 1
+    - ' To promote laziness among players'
+    - To help players understand the challenges of further studies
+    - To encourage dropping out of higher education
+    - To discourage the pursuit of knowledge
+    CorrectAnswer: 2
+  - Question: hy is it important to increase the percentage of skillful future generations?
+    Answers:
+    - To decrease competition in the job market
+    - To ensure a prosperous and competitive nation
+    - To limit progress and development
+    - To maintain a static society
+    CorrectAnswer: 2
   options:
   - {fileID: 288160459}
   - {fileID: 1430602169}

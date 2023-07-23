@@ -1977,7 +1977,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.38113207, g: 1, b: 0.88187146, a: 1}
+  m_Color: {r: 1, g: 0.75297856, b: 0.3150943, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2445,27 +2445,38 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: What are most favourite sports in the world?
+  - Question: Which famous Malaysian university is known for its engineering and
+      technology programs?
     Answers:
-    - Basketball
-    - Hockey
-    - Football
-    - Badminton
+    - University of Malaya (UM)
+    - Universiti Putra Malaysia (UPM)
+    - Universiti Teknologi Malaysia (UTM)
+    - Universiti Sains Malaysia (USM)
     CorrectAnswer: 3
-  - Question: which is the oldest polytechnic in malaysia?
+  - Question: What are some potential learning components included in the RPG game
+      to simulate higher education?
     Answers:
-    - Politeknik Ibrahim Sultan (PIS)
-    - Politeknik Port Dickson (PPD)
-    - Politeknik Merlimau (PMR)
-    - Politeknik Ungku Omar (PUO)
-    CorrectAnswer: 4
-  - Question: What are the most popular courses taken by students at Malaysian polytechnics?
-    Answers:
-    - Diploma in Business Studies/Management
-    - Diploma in Information Technology/Computer Science
-    - Diploma in Culinary Arts/Hospitality Management
-    - Diploma in Automotive Technology
+    - Solving real-world problems, managing time and resources
+    - Battling mythical creatures, casting spells, and potion-making
+    - Racing cars, solving criminal cases, and exploring haunted places
+    - Farming, cooking, and managing a virtual restaurant
     CorrectAnswer: 1
+  - Question: Which famous historical event in Malaysia led to the country's independence
+      from British rule?
+    Answers:
+    - The Malayan Emergency
+    - The Japanese Occupation
+    - The Independence Referendum
+    - Merdeka Declaration
+    CorrectAnswer: 4
+  - Question: In the RPG game, what are the consequences of choosing to skip further
+      studies and enter the workforce immediately after SPM?
+    Answers:
+    - Unlocking special achievements and rewards
+    - 'Gaining exclusive in-game items and abilities '
+    - Facing limited career growth and opportunities
+    - Accessing hidden areas and secret quests
+    CorrectAnswer: 3
   options:
   - {fileID: 288160459}
   - {fileID: 1430602169}
