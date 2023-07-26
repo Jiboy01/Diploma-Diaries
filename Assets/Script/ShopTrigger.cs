@@ -15,7 +15,6 @@ public class ShopTrigger : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             ShopManager.instance.ToggleShop();
-
         }
     }
 }

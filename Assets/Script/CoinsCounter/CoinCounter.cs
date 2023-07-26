@@ -5,6 +5,7 @@ using TMPro;
 
 public class CoinCounter : MonoBehaviour
 {
+    // Declare the public static instance variable
     public static CoinCounter instance;
 
     public TMP_Text coinText;
@@ -26,7 +27,7 @@ public class CoinCounter : MonoBehaviour
     private void Start()
     {
         // Load the gold count from the persistent storage script
-        currentCoins = GoldCountStorage.LoadGoldCount();
+        currentCoins = PlayerPrefs.GetInt("CurrentCoins", 10);
         UpdateCoinText();
     }
 
@@ -36,7 +37,7 @@ public class CoinCounter : MonoBehaviour
         UpdateCoinText();
 
         // Save the updated gold count to the persistent storage script
-        GoldCountStorage.SaveGoldCount(currentCoins);
+        PlayerPrefs.SetInt("CurrentCoins", currentCoins);
     }
 
     public int GetCurrentCoins()

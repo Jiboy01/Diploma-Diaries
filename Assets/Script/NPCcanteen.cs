@@ -16,6 +16,9 @@ public class NPCcanteen : MonoBehaviour
     public float wordSpeed;
     public bool playerIsClose;
 
+    public TextMeshProUGUI objectiveText;
+    public string nextObjective;
+
     // Update is called once per frame
     void Update()
     {
@@ -45,6 +48,8 @@ public class NPCcanteen : MonoBehaviour
             dialogueText.text = "";
             index = 0;
             dialoguePanel.SetActive(false);
+            objectiveText.text = nextObjective;
+
         }
     }
 

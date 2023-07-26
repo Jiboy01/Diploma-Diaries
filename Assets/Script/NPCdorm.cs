@@ -15,6 +15,9 @@ public class NPCdorm : MonoBehaviour
     public float wordSpeed;
     public bool playerIsClose;
 
+    public TextMeshProUGUI objectiveText;
+    public string nextObjective;
+
     // Update is called once per frame
     void Update()
     {
@@ -22,17 +25,21 @@ public class NPCdorm : MonoBehaviour
         {
             if (dialoguePanel.activeInHierarchy)
             {
+                
                 ZeroText(); // Use PascalCase for method names
             }
             else
             {
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
+               
             }
         }
         if (Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogue[index])
         {
             NextLine();
+            
+
         }
 
     }
@@ -44,6 +51,7 @@ public class NPCdorm : MonoBehaviour
             dialogueText.text = "";
             index = 0;
             dialoguePanel.SetActive(false);
+            objectiveText.text = nextObjective;
         }
     }
 
@@ -69,6 +77,7 @@ public class NPCdorm : MonoBehaviour
                 dialogueText.text = "";
             }
             StartCoroutine(Typing());
+            
         }
         else
         {

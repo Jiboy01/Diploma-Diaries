@@ -4,9 +4,16 @@ using TMPro;
 
 public class ShopManager : MonoBehaviour
 {
+    // Declare the public static instance variable
     public static ShopManager instance;
 
-    public int coins = 300;
+    // Coins property to access coins through CoinCounter
+    public int Coins
+    {
+        get { return CoinCounter.instance.GetCurrentCoins(); }
+        set { CoinCounter.instance.IncreaseCoins(value); }
+    }
+
     public Item[] items;
 
     // References
@@ -14,7 +21,6 @@ public class ShopManager : MonoBehaviour
     public GameObject Shop;
     public Transform shopContent;
     public GameObject itemPrefab;
-    
 
     private void Awake()
     {
@@ -25,12 +31,15 @@ public class ShopManager : MonoBehaviour
         else
         {
             Destroy(gameObject);
+            return;
         }
         DontDestroyOnLoad(gameObject);
     }
 
     private void Start()
     {
+        Coins = 10; // Set the initial coins value to 10.
+
         foreach (Item item in items)
         {
             GameObject food = Instantiate(itemPrefab, shopContent);
@@ -65,26 +74,25 @@ public class ShopManager : MonoBehaviour
 
     public void BuyFood(Item item)
     {
-        if (coins >= item.cost)
+        if (Coins >= item.cost)
         {
-            coins -= item.cost;
+            Coins -= item.cost;
             item.quantity++;
             item.itemRef.transform.GetChild(0).GetComponent<TextMeshProUGUI>().text = item.quantity.ToString();
-
         }
     }
 
-   
-
     public void ToggleShop()
     {
-       
-        Shop.SetActive(!Shop.activeSelf);
+        if (Shop != null)
+        {
+            Shop.SetActive(!Shop.activeSelf);
+        }
     }
 
-    private void OnGUI()
+    private void UpdateCoinText()
     {
-        coinText.text = "Coins: " + coins.ToString();
+        coinText.text = "Coins: " + Coins.ToString();
     }
 
     [System.Serializable]

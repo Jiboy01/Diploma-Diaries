@@ -135230,7 +135230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe98c480e40191499f6eaca66b92eaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeTime: 15
+  changeTime: 10
   sceneName: Dorm
 --- !u!4 &1311781224
 Transform:

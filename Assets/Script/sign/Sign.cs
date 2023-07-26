@@ -14,15 +14,15 @@ public class Sign : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && playerInRange )
+        if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
         {
-            if(dialogBox.activeInHierarchy)
+            if (dialogBox.activeInHierarchy)
             {
                 dialogBox.SetActive(false);
             }
@@ -36,7 +36,7 @@ public class Sign : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player"))
+        if (other.CompareTag("Player"))
         {
             playerInRange = true;
         }
@@ -47,7 +47,12 @@ public class Sign : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             playerInRange = false;
-            dialogBox.SetActive(false);
+
+            // Check if the dialogBox is null before attempting to deactivate it
+            if (dialogBox != null)
+            {
+                dialogBox.SetActive(false);
+            }
         }
     }
 }
