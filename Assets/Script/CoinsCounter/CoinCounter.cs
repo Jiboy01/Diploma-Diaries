@@ -47,6 +47,6 @@ public class CoinCounter : MonoBehaviour
 
     private void UpdateCoinText()
     {
-        coinText.text = "COINS: " + currentCoins.ToString();
+        coinText.text = "FOOD : " + currentCoins.ToString();
     }
 }
