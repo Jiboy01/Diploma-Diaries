@@ -10392,7 +10392,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeTime: 12
-  sceneName: Dorm
+  sceneName: Menu
 --- !u!4 &2038873961
 Transform:
   m_ObjectHideFlags: 0

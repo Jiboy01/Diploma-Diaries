@@ -3006,8 +3006,8 @@ MonoBehaviour:
   index: 0
   wordSpeed: 0
   playerIsClose: 0
-  objectiveText: {fileID: 0}
-  nextObjective: 
+  objectiveText: {fileID: 1355799265}
+  nextObjective: Meet Ahmad at the Library
 --- !u!1 &1047262204
 GameObject:
   m_ObjectHideFlags: 0
