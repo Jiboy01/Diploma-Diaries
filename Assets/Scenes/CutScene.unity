@@ -7369,10 +7369,10 @@ PlayableDirector:
     value: {fileID: 455991734}
   - key: {fileID: 4566178196916847684, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
     value: {fileID: 1337673076}
-  - key: {fileID: 6228330090578685935, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
-    value: {fileID: 0}
-  - key: {fileID: 249644608632049252, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
-    value: {fileID: 0}
+  - key: {fileID: 2322852035330529093, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
+    value: {fileID: 455991734}
+  - key: {fileID: -8777477374695351805, guid: 83495281ef4129c45b89c6d9dee7a8e9, type: 2}
+    value: {fileID: 1337673076}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &216769539
@@ -135044,7 +135044,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -135230,7 +135230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe98c480e40191499f6eaca66b92eaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeTime: 10
+  changeTime: 15
   sceneName: Dorm
 --- !u!4 &1311781224
 Transform:
@@ -143809,7 +143809,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 16777215
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
