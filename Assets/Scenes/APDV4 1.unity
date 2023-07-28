@@ -10003,7 +10003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a948c21670363a743aa1a83d308d2490, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneToLoad: Outside
+  sceneToLoad: Outside 4
   playerPosition: {x: 78.95, y: -8.29}
   playerStorage: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
   needText: 1
@@ -16036,9 +16036,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d670557a91b02f74f90cd5028498e593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryPanel: {fileID: 92969386}
-  player: {fileID: 0}
-  slots: []
 --- !u!1 &1146779302
 GameObject:
   m_ObjectHideFlags: 0
@@ -29364,8 +29361,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614fac56b8b147f458cbe7ff66e4fcd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  HungerSlider: {fileID: 1885424770}
-  Hunger: 0
 --- !u!1 &2060117708
 GameObject:
   m_ObjectHideFlags: 0

@@ -11409,8 +11409,8 @@ MonoBehaviour:
   contButton: {fileID: 1307543469}
   wordSpeed: 0.05
   playerIsClose: 0
-  objectiveText: {fileID: 0}
-  nextObjective: 
+  objectiveText: {fileID: 465520878}
+  nextObjective: Go up or down to complete the level
 --- !u!1 &859453972
 GameObject:
   m_ObjectHideFlags: 0
