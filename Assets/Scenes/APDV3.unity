@@ -24272,8 +24272,8 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1448341410}
   dialogueText: {fileID: 2053694292}
   dialogue:
-  - Hello!!! Welcome to APDV3
-  - My name is Siti and I'm your lecturer
+  - Welcome to APDV3 Aiman
+  - s
   - I'm Greate to see you
   index: 0
   contButton: {fileID: 1562055941}
