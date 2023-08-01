@@ -8666,7 +8666,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C0llect all the coins
+  m_text: Collect all the coins
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2cfa07c421cd82846a049e13403aff55, type: 2}
   m_sharedMaterial: {fileID: 1260357367622887970, guid: 2cfa07c421cd82846a049e13403aff55, type: 2}
@@ -13954,7 +13954,6 @@ GameObject:
   - component: {fileID: 1265309215}
   - component: {fileID: 1265309214}
   - component: {fileID: 1265309213}
-  - component: {fileID: 1265309212}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -13962,20 +13961,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1265309212
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1265309211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 614fac56b8b147f458cbe7ff66e4fcd3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  HungerSlider: {fileID: 0}
-  Hunger: 0
 --- !u!95 &1265309213
 Animator:
   serializedVersion: 5
@@ -14010,6 +13995,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  shiftBoostMultiplier: 1.5
+  boostKey: 304
   startingPosition: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
 --- !u!61 &1265309215
 BoxCollider2D:

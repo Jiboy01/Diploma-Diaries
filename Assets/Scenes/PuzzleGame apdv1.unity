@@ -9596,7 +9596,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: C0llect all the coins
+  m_text: Collect all the coins
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2cfa07c421cd82846a049e13403aff55, type: 2}
   m_sharedMaterial: {fileID: 1260357367622887970, guid: 2cfa07c421cd82846a049e13403aff55, type: 2}
@@ -13299,6 +13299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 4
+  shiftBoostMultiplier: 1.5
+  boostKey: 304
   startingPosition: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
 --- !u!61 &1265309215
 BoxCollider2D:

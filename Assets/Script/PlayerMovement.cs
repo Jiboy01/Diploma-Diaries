@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [SerializeField] private float speed = 5f;
+    [SerializeField] private float shiftBoostMultiplier = 1.5f;
+    [SerializeField] private KeyCode boostKey = KeyCode.LeftShift;
 
     private Rigidbody2D myRigidbody;
     private Vector3 change;
@@ -23,7 +25,6 @@ public class PlayerMovement : MonoBehaviour
         playerAnimator.SetFloat("moveY", -1);
         playerTransform = transform;
         playerTransform.position = startingPosition.initialValue;
-
     }
 
     private void FixedUpdate()
@@ -52,9 +53,15 @@ public class PlayerMovement : MonoBehaviour
     void MoveCharacter()
     {
         change.Normalize();
-        Vector3 targetPosition = playerTransform.position + change * speed * Time.fixedDeltaTime;
+
+        float currentSpeed = speed;
+
+        if (Input.GetKey(boostKey))
+        {
+            currentSpeed *= shiftBoostMultiplier;
+        }
+
+        Vector3 targetPosition = playerTransform.position + change * currentSpeed * Time.fixedDeltaTime;
         myRigidbody.MovePosition(targetPosition);
     }
-
-
 }

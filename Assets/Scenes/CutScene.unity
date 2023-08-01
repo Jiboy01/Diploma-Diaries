@@ -135044,7 +135044,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -135230,7 +135230,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebe98c480e40191499f6eaca66b92eaf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  changeTime: 15
+  changeTime: 7.5
   sceneName: Dorm
 --- !u!4 &1311781224
 Transform:
@@ -143809,7 +143809,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 16777215
+    rgba: 4294967295
   m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
