@@ -25,20 +25,23 @@ public class NPCapdv1 : MonoBehaviour
         {
             if (dialoguePanel.activeInHierarchy)
             {
+
                 ZeroText(); // Use PascalCase for method names
             }
             else
             {
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
+
             }
         }
-
-        // Use the "Space" key to progress to the next line of dialogue
         if (Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogue[index])
         {
             NextLine();
+
+
         }
+
     }
 
     public void ZeroText()
@@ -62,9 +65,6 @@ public class NPCapdv1 : MonoBehaviour
             }
             yield return new WaitForSeconds(wordSpeed);
         }
-
-        // Progress to the next line when the text is fully displayed
-        NextLine();
     }
 
     public void NextLine()
@@ -77,6 +77,7 @@ public class NPCapdv1 : MonoBehaviour
                 dialogueText.text = "";
             }
             StartCoroutine(Typing());
+
         }
         else
         {
