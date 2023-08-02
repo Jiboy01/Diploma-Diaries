@@ -12,6 +12,7 @@ public class NPCApdv2 : MonoBehaviour
     public string[] dialogue;
     public int index;
 
+    public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -25,21 +26,17 @@ public class NPCApdv2 : MonoBehaviour
         {
             if (dialoguePanel.activeInHierarchy)
             {
-
                 ZeroText(); // Use PascalCase for method names
             }
             else
             {
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
-
             }
         }
-        if (Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogue[index])
+        if (dialogueText.text == dialogue[index])
         {
-            NextLine();
-
-
+            contButton.SetActive(true);
         }
 
     }
@@ -52,6 +49,7 @@ public class NPCApdv2 : MonoBehaviour
             index = 0;
             dialoguePanel.SetActive(false);
             objectiveText.text = nextObjective;
+
         }
     }
 
@@ -69,6 +67,8 @@ public class NPCApdv2 : MonoBehaviour
 
     public void NextLine()
     {
+        contButton.SetActive(false);
+
         if (index < dialogue.Length - 1)
         {
             index++;
@@ -77,7 +77,6 @@ public class NPCApdv2 : MonoBehaviour
                 dialogueText.text = "";
             }
             StartCoroutine(Typing());
-
         }
         else
         {
