@@ -3295,7 +3295,7 @@ MonoBehaviour:
   m_margin: {x: -46.413025, y: -106.91211, z: -803.1315, w: -109.50276}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 1
+  m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &456700204
@@ -7895,7 +7895,11 @@ MonoBehaviour:
   - And if you're into quizzes, go down below.
   - Have fun and good luck!
   index: 0
+<<<<<<< Updated upstream
   contButton: {fileID: 1290275721}
+=======
+  contButton: {fileID: 0}
+>>>>>>> Stashed changes
   wordSpeed: 0.05
   playerIsClose: 0
   objectiveText: {fileID: 1600708095}
@@ -9738,7 +9742,11 @@ MonoBehaviour:
   - So, since this is your first class, you must meet with the Magic Man to complete
     a task for today.
   index: 0
+<<<<<<< Updated upstream
   contButton: {fileID: 1073192053}
+=======
+  contButton: {fileID: 0}
+>>>>>>> Stashed changes
   wordSpeed: 0.05
   playerIsClose: 0
   objectiveText: {fileID: 1600708095}
