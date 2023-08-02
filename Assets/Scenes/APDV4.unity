@@ -10663,10 +10663,11 @@ MonoBehaviour:
   dialoguePanel: {fileID: 2076962365}
   dialogueText: {fileID: 1502257547}
   dialogue:
-  - 'Hello !! My name is Magic Man, So this is level 4. which the level is more harder '
-  - If you want to play Puzzle Game Go to the top
-  - and iIf you want to do Quiz just go to the bottom door
-  - Goodluck !!!
+  - Wah, we meet again Aiman
+  - So the last task is more harder than before.
+  - Which is level 4 the Expert level.
+  - Choose only one for the task.
+  - Goodluck to You Aiman!!!
   index: 0
   wordSpeed: 0.05
   playerIsClose: 0
@@ -24265,9 +24266,9 @@ MonoBehaviour:
   dialoguePanel: {fileID: 1448341410}
   dialogueText: {fileID: 1938410532}
   dialogue:
-  - Hello!!! Welcome to APDV4
-  - My name is Aminah and I'm your lecturer for this class
-  - Nice to meet you
+  - Welcome Aiman to APDV4
+  - So thus is last the task that you need to pass before graduate
+  - 'Best wishes!! '
   index: 0
   wordSpeed: 0.05
   playerIsClose: 0
