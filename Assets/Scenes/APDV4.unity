@@ -5547,7 +5547,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sceneToLoad: PuzzleGame Apdv4
-  playerPosition: {x: -15.02, y: -10.95}
+  playerPosition: {x: 14.1, y: -11.48}
   playerStorage: {fileID: 11400000, guid: a6841a77a3fe21d418490529aff78e97, type: 2}
   needText: 1
   placeName: Puzzle Game 4
