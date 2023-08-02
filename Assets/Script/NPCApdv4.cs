@@ -15,6 +15,9 @@ public class NPCApdv4 : MonoBehaviour
     public float wordSpeed;
     public bool playerIsClose;
 
+    public TextMeshProUGUI objectiveText;
+    public string nextObjective;
+
     // Update is called once per frame
     void Update()
     {
@@ -22,20 +25,23 @@ public class NPCApdv4 : MonoBehaviour
         {
             if (dialoguePanel.activeInHierarchy)
             {
+
                 ZeroText(); // Use PascalCase for method names
             }
             else
             {
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
+
             }
         }
-
-        // Use the "Space" key to progress to the next line of dialogue
         if (Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogue[index])
         {
             NextLine();
+
+
         }
+
     }
 
     public void ZeroText()
@@ -45,6 +51,7 @@ public class NPCApdv4 : MonoBehaviour
             dialogueText.text = "";
             index = 0;
             dialoguePanel.SetActive(false);
+            objectiveText.text = nextObjective;
         }
     }
 
@@ -70,6 +77,7 @@ public class NPCApdv4 : MonoBehaviour
                 dialogueText.text = "";
             }
             StartCoroutine(Typing());
+
         }
         else
         {

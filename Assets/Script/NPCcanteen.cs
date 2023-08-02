@@ -25,20 +25,23 @@ public class NPCcanteen : MonoBehaviour
         {
             if (dialoguePanel.activeInHierarchy)
             {
+
                 ZeroText(); // Use PascalCase for method names
             }
             else
             {
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
+
             }
         }
-
-        // Use the "Space" key to progress to the next line of dialogue
         if (Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogue[index])
         {
             NextLine();
+
+
         }
+
     }
 
     public void ZeroText()
@@ -74,6 +77,7 @@ public class NPCcanteen : MonoBehaviour
                 dialogueText.text = "";
             }
             StartCoroutine(Typing());
+
         }
         else
         {
