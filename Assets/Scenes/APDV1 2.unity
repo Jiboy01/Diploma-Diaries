@@ -17832,7 +17832,7 @@ MonoBehaviour:
   dialogue:
   - That all for today class, See You Tomorrow
   index: 0
-  contButton: {fileID: 0}
+  contButton: {fileID: 157441510}
   wordSpeed: 0.05
   playerIsClose: 0
   objectiveText: {fileID: 338530390}

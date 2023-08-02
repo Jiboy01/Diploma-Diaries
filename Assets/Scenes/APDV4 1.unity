@@ -4706,7 +4706,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -62, y: -48.359985}
+  m_AnchoredPosition: {x: 747, y: -131}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &379892720
@@ -24586,7 +24586,7 @@ MonoBehaviour:
   dialogue:
   - Congrats Aiman You have completed your Course. I wish all the best to your future
   index: 0
-  contButton: {fileID: 0}
+  contButton: {fileID: 379892718}
   wordSpeed: 0.05
   playerIsClose: 0
   objectiveText: {fileID: 763901094}

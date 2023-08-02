@@ -24374,7 +24374,7 @@ MonoBehaviour:
   dialogue:
   - Thanks for coming today hope to see you soon
   index: 0
-  contButton: {fileID: 0}
+  contButton: {fileID: 1766388365}
   wordSpeed: 0.05
   playerIsClose: 0
   objectiveText: {fileID: 1329068119}

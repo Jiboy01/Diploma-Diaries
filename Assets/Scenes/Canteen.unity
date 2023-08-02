@@ -2760,7 +2760,7 @@ MonoBehaviour:
   - This is where I will be having my breakfast
   - I think It is Time you head to for class
   index: 0
-  contButton: {fileID: 0}
+  contButton: {fileID: 2038762205}
   wordSpeed: 0.06
   playerIsClose: 0
   objectiveText: {fileID: 467019695}
@@ -5143,7 +5143,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1184655179
 RectTransform:
   m_ObjectHideFlags: 0
