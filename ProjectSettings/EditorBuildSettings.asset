@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/CutScene.unity
     guid: 7d247610110ca374eb25d0937120ecaa
   - enabled: 1
+    path: Assets/Scenes/ToturialCutscene.unity
+    guid: a5f10f83baab5c54581aafb8dade8d01
+  - enabled: 1
     path: Assets/Scenes/Dorm.unity
     guid: da6ceec027a32d6479d33f9303372776
   - enabled: 1
@@ -43,7 +46,7 @@ EditorBuildSettings:
     guid: 2e4c2412f0892d84a9cb145b87cbbc06
   - enabled: 1
     path: Assets/Scenes/Outside 2.unity
-    guid: 56f2ebdc971687549a7df44633ba28cb
+    guid: b3d963cf0a71a84418c0615f423b8c55
   - enabled: 1
     path: Assets/Scenes/Outside 3.unity
     guid: 1b8caf57f38baac4aaa48a3c091c3f41

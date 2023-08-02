@@ -135231,7 +135231,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   changeTime: 7.5
-  sceneName: Dorm
+  sceneName: ToturialCutscene
 --- !u!4 &1311781224
 Transform:
   m_ObjectHideFlags: 0
