@@ -12,7 +12,6 @@ public class NPCapdv1 : MonoBehaviour
     public string[] dialogue;
     public int index;
 
-    public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -34,11 +33,12 @@ public class NPCapdv1 : MonoBehaviour
                 StartCoroutine(Typing());
             }
         }
-        if (dialogueText.text == dialogue[index])
-        {
-            contButton.SetActive(true);
-        }
 
+        // Use the "Space" key to progress to the next line of dialogue
+        if (Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogue[index])
+        {
+            NextLine();
+        }
     }
 
     public void ZeroText()
@@ -50,7 +50,6 @@ public class NPCapdv1 : MonoBehaviour
             dialoguePanel.SetActive(false);
             objectiveText.text = nextObjective;
         }
-
     }
 
     IEnumerator Typing()
@@ -63,12 +62,13 @@ public class NPCapdv1 : MonoBehaviour
             }
             yield return new WaitForSeconds(wordSpeed);
         }
+
+        // Progress to the next line when the text is fully displayed
+        NextLine();
     }
 
     public void NextLine()
     {
-        contButton.SetActive(false);
-
         if (index < dialogue.Length - 1)
         {
             index++;

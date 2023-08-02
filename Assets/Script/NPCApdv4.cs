@@ -12,7 +12,6 @@ public class NPCApdv4 : MonoBehaviour
     public string[] dialogue;
     public int index;
 
-    public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -31,11 +30,12 @@ public class NPCApdv4 : MonoBehaviour
                 StartCoroutine(Typing());
             }
         }
-        if (dialogueText.text == dialogue[index])
-        {
-            contButton.SetActive(true);
-        }
 
+        // Use the "Space" key to progress to the next line of dialogue
+        if (Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogue[index])
+        {
+            NextLine();
+        }
     }
 
     public void ZeroText()
@@ -62,8 +62,6 @@ public class NPCApdv4 : MonoBehaviour
 
     public void NextLine()
     {
-        contButton.SetActive(false);
-
         if (index < dialogue.Length - 1)
         {
             index++;

@@ -12,7 +12,6 @@ public class NPCcanteen : MonoBehaviour
     public string[] dialogue;
     public int index;
 
-    public GameObject contButton;
     public float wordSpeed;
     public bool playerIsClose;
 
@@ -34,11 +33,12 @@ public class NPCcanteen : MonoBehaviour
                 StartCoroutine(Typing());
             }
         }
-        if (dialogueText.text == dialogue[index])
-        {
-            contButton.SetActive(true);
-        }
 
+        // Use the "Space" key to progress to the next line of dialogue
+        if (Input.GetKeyDown(KeyCode.Space) && dialogueText.text == dialogue[index])
+        {
+            NextLine();
+        }
     }
 
     public void ZeroText()
@@ -49,7 +49,6 @@ public class NPCcanteen : MonoBehaviour
             index = 0;
             dialoguePanel.SetActive(false);
             objectiveText.text = nextObjective;
-
         }
     }
 
@@ -67,8 +66,6 @@ public class NPCcanteen : MonoBehaviour
 
     public void NextLine()
     {
-        contButton.SetActive(false);
-
         if (index < dialogue.Length - 1)
         {
             index++;
